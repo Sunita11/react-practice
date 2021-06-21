@@ -1,0 +1,80 @@
+.heading_1 {
+  font-size: 32px;
+}
+
+.heading_2 {
+  font-size: 24px;
+}
+
+.aqi-wrapper .city-image-wrapper {
+  width: 60px;
+  height: 60px;
+  margin: 0 8px;
+}
+
+.aqi-wrapper .city-image-wrapper img {
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+}
+
+.aqi-wrapper .cell-data {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  margin: 15px 0;
+  padding: 10px;
+}
+
+.aqi-wrapper .city-name {
+  padding: 0 10px 10px 18%;
+  color: #007bff;
+  font-weight: 500;
+  letter-spacing: 1;
+}
+.aqi-wrapper .city-aqi {
+  text-align: right;
+  font-weight: 500;
+}
+
+.aqi-wrapper .city-image-wrapper,
+.aqi-wrapper .city-name,
+.aqi-wrapper .city-aqi {
+  flex-basis: 33%;
+}
+
+.aqi-wrapper .good {
+  color: olivedrab;
+}
+
+.aqi-wrapper .moderate {
+  color: gold;
+}
+
+.aqi-wrapper .unhealthy-for-sensitive-groups {
+  color: chocolate;
+}
+
+.aqi-wrapper .unhealthy {
+  color: tomato;
+}
+.aqi-wrapper .very-unhealthy {
+  color: purple;
+}
+.aqi-wrapper .hazardous {
+  color: maroon;
+}
+
+.aqi-wrapper .table-body {
+  height: 600px;
+  overflow-y: scroll;
+}
+
+.empty-state {
+  padding: 70px 30px;
+}
+
+.empty-state .heading_2 {
+  color: salmon;
+  text-align: center;
+}

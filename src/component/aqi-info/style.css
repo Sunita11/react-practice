@@ -1,0 +1,57 @@
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.table-bordered {
+  border: 1px solid #ddd;
+}
+
+caption {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: #777;
+  text-align: left;
+}
+td,
+th {
+  padding: 10px;
+  font-weight: 500;
+}
+
+.aqi-info-wrapper {
+  margin: 80px 0;
+}
+
+.aqi-info-wrapper .heading_2 {
+  text-align: center;
+}
+
+.thead-row {
+  background: rgb(225, 235, 244);
+}
+
+.aqi-good {
+  background: rgba(0, 228, 0, 0.55);
+}
+
+.aqi-moderate {
+  background: yellow;
+}
+
+.aqi-unhealthy-sens {
+  background: rgba(255, 126, 0, 0.55);
+}
+
+.aqi-unhealthy {
+  background: rgba(255, 0, 0, 0.55);
+}
+
+.aqi-vunhealthy {
+  background: rgba(143, 63, 151, 0.55);
+}
+
+.aqi-hazardous {
+  background: rgba(126, 0, 35, 0.55);
+}
